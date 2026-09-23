@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MD Rijon Islam — Ethical Hacking & Cybersecurity Portfolio">
+  <meta name="theme-color" content="#f7fbff">
+  <title>MD Rijon Islam | Cybersecurity Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb-one"></div>
+  <div class="bg-orb orb-two"></div>
+  <div class="bg-orb orb-three"></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="MD Rijon Islam home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Rijon<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="siteNav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#focus">Focus</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="nav-cta" href="mailto:mdrijonislam728@gmail.com">Let's Connect <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Exploring the world of cybersecurity</div>
+          <h1>Ethical Hacker.<br><span class="gradient-text">Security Learner.</span><br>Future Builder.</h1>
+          <p class="hero-text">
+            I'm <strong>MD Rijon Islam</strong>, passionate about Ethical Hacking and Cybersecurity.
+            I enjoy learning how cyber threats work, finding weaknesses responsibly, and exploring
+            practical ways to build safer digital systems.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#focus">Explore My Focus <span>↓</span></a>
+            <a class="btn btn-ghost" href="mailto:mdrijonislam728@gmail.com">Email Me <span>↗</span></a>
+          </div>
+          <div class="hero-meta">
+            <span>Learn</span><span class="meta-line"></span><span>Practice</span><span class="meta-line"></span><span>Secure 🔐</span>
+          </div>
+        </div>
+
+        <div class="hero-card-wrap reveal">
+          <div class="terminal-card">
+            <div class="terminal-top">
+              <div class="traffic"><i></i><i></i><i></i></div>
+              <span>rijon@cyberlab:~</span>
+              <span class="terminal-lock">●</span>
+            </div>
+            <div class="terminal-body">
+              <p><span class="prompt">$</span> whoami</p>
+              <p class="terminal-accent">MD Rijon Islam</p>
+              <p><span class="prompt">$</span> mission</p>
+              <p class="terminal-muted">Find vulnerabilities. Learn deeply.<br>Help build safer systems.</p>
+              <p><span class="prompt">$</span> status</p>
+              <p class="terminal-ok">● ONLINE — LEARNING MODE</p>
+              <p><span class="prompt">$</span> ./secure.sh</p>
+              <div class="terminal-progress">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <p class="cursor-line"><span class="prompt">$</span> <span class="cursor">▋</span></p>
+            </div>
+          </div>
+          <div class="floating-chip chip-one">🛡️ Web Security</div>
+          <div class="floating-chip chip-two">⌁ Network Recon</div>
+          <div class="floating-chip chip-three">🔐 Cryptography</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">01 — ABOUT</span>
+          <h2>Curiosity with a security mindset.</h2>
+          <p>I’m building my foundation by studying cybersecurity concepts, practicing in controlled environments, and turning knowledge into practical understanding.</p>
+        </div>
+
+        <div class="about-grid">
+          <article class="info-card reveal">
+            <div class="icon-box">⚡</div>
+            <h3>Security Curiosity</h3>
+            <p>Understanding attack surfaces, common weaknesses, and the defensive thinking behind secure systems.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="icon-box">🧭</div>
+            <h3>Hands-on Learning</h3>
+            <p>Exploring reconnaissance, scanning, vulnerability assessment, and web security through responsible practice.</p>
+          </article>
+          <article class="info-card reveal">
+            <div class="icon-box">🛡️</div>
+            <h3>Responsible Mindset</h3>
+            <p>Ethical hacking is about learning, improving defenses, and helping create safer digital experiences.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-kicker">02 — SKILLS & INTERESTS</span>
+          <h2>Security topics I’m exploring.</h2>
+          <p>These are the core areas shaping my learning journey in ethical hacking and cybersecurity.</p>
+        </div>
+
+        <div class="skill-grid">
+          <div class="skill-card reveal"><span class="skill-index">01</span><span class="skill-icon">⌕</span><h3>Footprinting & Reconnaissance</h3><p>Learning how to map information and understand an environment before testing it.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">02</span><span class="skill-icon">◉</span><h3>Network Scanning</h3><p>Exploring hosts, services, ports, protocols, and the basics of network visibility.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">03</span><span class="skill-icon">◈</span><h3>Vulnerability Assessment</h3><p>Studying how weaknesses are identified, understood, prioritized, and responsibly documented.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">04</span><span class="skill-icon">◇</span><h3>Web Application Security</h3><p>Learning about authentication, access control, input validation, sessions, and common web flaws.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">05</span><span class="skill-icon">⌘</span><h3>Android & IoT Security</h3><p>Exploring security considerations across connected devices and modern application ecosystems.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">06</span><span class="skill-icon">#</span><h3>Cryptography</h3><p>Building a stronger understanding of secure communication, hashing, encryption, and key concepts.</p></div>
+          <div class="skill-card reveal"><span class="skill-index">07</span><span class="skill-icon">⚠</span><h3>Malware Threat Awareness</h3><p>Learning how malicious software works at a conceptual level and how defenses can reduce risk.</p></div>
+          <div class="skill-card highlight reveal"><span class="skill-index">08</span><span class="skill-icon">✦</span><h3>Continuous Learning</h3><p>Always improving through labs, projects, documentation, and responsible security practice.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="focus">
+      <div class="container focus-grid">
+        <div class="focus-copy reveal">
+          <span class="section-kicker">03 — MISSION</span>
+          <h2>Security isn't about breaking systems. It's about understanding them well enough to protect them.</h2>
+          <p>
+            My goal is to keep learning the fundamentals, practice responsibly, and develop the
+            problem-solving mindset needed to identify weaknesses and improve security.
+          </p>
+          <div class="quote-strip">“Learn deeply. Practice responsibly. Secure what matters.”</div>
+        </div>
+
+        <div class="mission-board reveal">
+          <div class="board-line"><span>01</span><strong>LEARN</strong><em>Build strong fundamentals</em></div>
+          <div class="board-line"><span>02</span><strong>PRACTICE</strong><em>Use legal labs & safe environments</em></div>
+          <div class="board-line"><span>03</span><strong>ANALYZE</strong><em>Understand root causes</em></div>
+          <div class="board-line"><span>04</span><strong>SECURE</strong><em>Think like a defender</em></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-panel reveal">
+          <div>
+            <span class="section-kicker">04 — CONTACT</span>
+            <h2>Let's connect.</h2>
+            <p>For networking, collaboration, learning discussions, or professional opportunities.</p>
+          </div>
+          <a class="btn btn-primary" href="mailto:mdrijonislam728@gmail.com">mdrijonislam728@gmail.com <span>↗</span></a>
+        </div>
+
+        <div class="social-grid">
+          <a class="social-card reveal" href="https://www.linkedin.com/in/md-rijon-islam-172987433/" target="_blank" rel="noopener noreferrer">
+            <span class="social-symbol">in</span><span><strong>LinkedIn</strong><small>Professional profile</small></span><span class="arrow">↗</span>
+          </a>
+          <a class="social-card reveal" href="https://www.facebook.com/share/1ByhbEcD3k/" target="_blank" rel="noopener noreferrer">
+            <span class="social-symbol">f</span><span><strong>Facebook</strong><small>Connect socially</small></span><span class="arrow">↗</span>
+          </a>
+          <a class="social-card reveal" href="https://www.instagram.com/rijons2025?stkn=NXI2NjcxaDFlcGc4" target="_blank" rel="noopener noreferrer">
+            <span class="social-symbol">◎</span><span><strong>Instagram</strong><small>See more of my world</small></span><span class="arrow">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> MD Rijon Islam. Built with curiosity, code & security.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
